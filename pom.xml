@@ -19,7 +19,10 @@
         <thucydides.version>1.8.4</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
-    </properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        </properties>
 
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
